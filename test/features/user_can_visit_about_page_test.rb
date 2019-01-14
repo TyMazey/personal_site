@@ -1,7 +1,7 @@
 require './test/test_helper'
 
 class HomepageTest < CapybaraTestCase
-  def test_user_can_see_the_homepage
+  def test_user_can_see_the_about_page
     visit '/about'
 
     assert page.has_content?("About Me!")
