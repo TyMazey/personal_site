@@ -1,3 +1,20 @@
 body {
-  background-color: blue;
+  background-color: dimgrey;
+}
+h1  {
+  font-family: monospace;
+  font-style: oblique;
+  color: cyan;
+}
+a:link {
+  color: hotpink;
+}
+
+a:visited {
+  color: indigo;
+}
+
+article.blog_post {
+  display: block;
+  background-color: silver;
 }
